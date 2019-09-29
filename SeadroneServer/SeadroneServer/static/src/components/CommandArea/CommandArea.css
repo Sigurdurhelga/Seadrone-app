@@ -1,0 +1,30 @@
+.command-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #88796A;
+}
+
+.command-button {
+    border: 2px solid #908172;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #BFB3A4;
+    color: black;
+    height: 80px;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+.command-button:hover {
+    opacity: 0.6;
+}
+
+.selected {
+    border: 2px solid red;
+}

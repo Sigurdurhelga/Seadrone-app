@@ -1,0 +1,12 @@
+.top-bar {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #88796A;
+    padding: 20px;
+}
+
+.title-text {
+    color: #FDF6EE;
+    font-size: 20px;
+    font-weight: 500;
+}

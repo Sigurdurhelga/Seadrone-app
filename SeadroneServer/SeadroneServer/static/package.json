@@ -1,0 +1,55 @@
+{
+  "name": "seadroneserver",
+  "version": "1.0.0",
+  "description": "Server to handle communications with a sea drone",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=env",
+    "start": "nodemon --exec npm run babel-node -- ./src/index.js",
+    "wds": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sigurdurhelga/SeadroneServer.git"
+  },
+  "keywords": [
+    "drone",
+    "seadrone",
+    "flask",
+    "react"
+  ],
+  "author": "Sigurdur Helgason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sigurdurhelga/SeadroneServer/issues"
+  },
+  "homepage": "https://github.com/Sigurdurhelga/SeadroneServer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "compression-webpack-plugin": "^1.1.11",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "leaflet": "^1.3.1",
+    "npm": "^6.1.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-leaflet": "^1.9.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}
